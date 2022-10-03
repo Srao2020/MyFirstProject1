@@ -40,6 +40,11 @@ public class Bobby {
                 (coolnessFactor*100) + "% cool";
     }
 
+    /**
+     * Main method of class Bobby
+     * @param args Command-line arguments, if needed.
+     */
+
     public static void main(String[] args) {
         Bobby b = new Bobby("Marge", 5000, .53);
         System.out.println(b.getAge());
